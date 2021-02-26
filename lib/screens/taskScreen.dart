@@ -23,7 +23,6 @@ class _TaskScreenState extends State<TaskScreen> {
               (newTaskTitle) {
                 setState(() {
                   tasks.add(Tasks(name: newTaskTitle));
-                  print(newTaskTitle);
                 });
                 Navigator.pop(context);
               },

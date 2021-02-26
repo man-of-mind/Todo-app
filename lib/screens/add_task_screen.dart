@@ -38,7 +38,6 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   setState(() {
                     newTaskTitle = value;
                   });
-                  print(newTaskTitle);
                 },
               ),
               SizedBox(
