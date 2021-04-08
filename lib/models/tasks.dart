@@ -1,7 +1,7 @@
-class Tasks {
+class Task {
   bool isDone;
   final String name;
-  Tasks({this.name, this.isDone = false});
+  Task({this.name, this.isDone = false});
   void toggleDone() {
     isDone = !isDone;
   }
